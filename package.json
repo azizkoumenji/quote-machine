@@ -16,10 +16,10 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   },
-
-  "homepage": "http://{mohamedazizkoumenji}.github.io/{quote-machine}",
+  "homepage": "http://mohamedazizkoumenji.github.io/quote-machine",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
