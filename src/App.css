@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "San Francisco";
+  src: url('./fonts/san-francisco-pro.ttf') format('truetype');
+}
+  
+@font-face {
+  font-family: "San Francisco Mono";
+  src: url('./fonts/san-francisco-mono-regular.otf') format('truetype');
+}
+  
+@font-face {
+  font-family: "New York";
+  src: url('./fonts/new-york-medium-regular.otf') format('truetype');
+}
+  
+:root {
+  --fa-primary-color: rgb(53, 167, 255);
+}
+  
+i {
+  color: var(--fa-primary-color);
+}
+  
+body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+#quote-box {
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+  
+#text {
+  font-family: "New York";
+  text-align: center;
+  font-size: 25px;
+}
+  
+#author {
+  font-family: "San Francisco Mono";
+  text-align: end;
+}
+  
+#buttons {
+  display: flex;
+}
+  
+button {
+  margin-left: auto;
+  background-color: rgb(53, 167, 255);
+  border: none;
+  padding: 5px;
+  font-family: "San Francisco";
+  border-radius: 5px;
+  color: white;
+}
