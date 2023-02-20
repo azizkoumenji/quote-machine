@@ -27,13 +27,13 @@ body {
 }
   
 #text {
-  font-family: serif;
+  font-family: Newsreader ,serif;
   text-align: center;
   font-size: 25px;
 }
   
 #author {
-  font-family: serif;
+  font-family: Newsreader, serif;
   text-align: end;
 }
   
@@ -46,7 +46,7 @@ button {
   background-color: rgb(53, 167, 255);
   border: none;
   padding: 5px;
-  font-family: sans-serif;
+  font-family: Inter, sans-serif;
   border-radius: 5px;
   color: white;
 }
