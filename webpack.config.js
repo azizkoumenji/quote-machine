@@ -34,7 +34,7 @@ module.exports = {
     filename: "app.js"
   },
   devServer: {
-    static: path.join(__dirname, "public/"),
+    static: path.join(__dirname, "dist/"),
     port: 3000,
     devMiddleware: {
       publicPath: "http://localhost:3000/dist/"

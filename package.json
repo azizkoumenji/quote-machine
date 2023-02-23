@@ -7,6 +7,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-refresh": "^0.14.0",
@@ -16,7 +17,11 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production"
-  }
+  },
+  "name": "markdown-previewer",
+  "homepage": "https://mohamedazizkoumenji.github.io/markdown-previewer/"
 }
