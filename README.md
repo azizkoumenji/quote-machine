@@ -4,7 +4,6 @@ This website was made in order to pass one of the freeCodeCamp Front End Develop
 - React
 - Javascript
 - HTML
-- SASS
-- Bootstrap
+- Sass
 - Webpack
 - Node
